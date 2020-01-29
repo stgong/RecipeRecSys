@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6148f5a0-9c21-4589-baa8-b909b261c150" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Fine_tune_GloVe+_multi_label_classification.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/GloVe+TF-IDF recipe steps embedding.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/item_id_mapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/ktf/rnn_cce_ml30_bs32_ne1446.138_gc100_e100_h50_Ug_lr0.1_nt1.ktf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/ktf/rnn_cce_ml60_bs32_ne106.479_gc100_e100_h100_Ug_lr0.1_nt1.ktf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/ktf/rnn_cce_ml60_bs32_ne2406.162_gc100_e16_h50_Ug_lr0.1_nt1.ktf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/ktf/rnn_cce_ml60_bs32_ne555.448_gc100_e100_h100_Ug_lr0.1_nt1.ktf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/model/recipe_emb_100_h_100.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/model/recipe_emb_100_h_100_001.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/model/recipe_emb_100_h_100_002.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/model/recipe_emb_100_h_100_003.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/model/recipe_emb_100_h_100_004.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/model/recipe_emb_100_h_100_006.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/recipe_emb100_lstm100_all.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/recipe_lstm_emb100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/Recipe_Embedding_Model/recipe_tfidf_emb100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/recipe_lstm_model_h300.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_part/recipetext_lstm_e_300_h100.hdf5" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <caret line="9" selection-start-line="9" selection-end-line="9" />
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RNN-model/neural_networks/rnn_core_keras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-782" />
           </provider>
         </entry>
       </file>
@@ -53,6 +77,17 @@
             <path>
               <item name="RecipeRecSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="RecipeRecSys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeRecSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeRecSys" type="462c0819:PsiDirectoryNode" />
+              <item name="RNN-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecipeRecSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecipeRecSys" type="462c0819:PsiDirectoryNode" />
+              <item name="RNN-model" type="462c0819:PsiDirectoryNode" />
+              <item name="neural_networks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -89,12 +124,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580293306612</updated>
-      <workItem from="1580293308733" duration="117000" />
+      <workItem from="1580293308733" duration="511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117000" />
+    <option name="totallyTimeSpent" value="511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="271" y="23" width="1358" height="1027" extended-state="0" />
@@ -131,10 +166,15 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN-model/neural_networks/rnn_core_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782" />
       </provider>
     </entry>
   </component>

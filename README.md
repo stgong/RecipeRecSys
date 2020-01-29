@@ -5,8 +5,8 @@ Empirical experiment for my master thesis "Personalized Recipe Recommender syste
 Code are adapted from the orginal code in "[Collaborative filtering based on sequences](https://github.com/rdevooght/sequence-based-recommendations)" and "[Improving-RNN-recommendation-model](https://github.com/kwonmha/Improving-RNN-recommendation-model)" and implemented in Keras on top of Tensorflow 2.0 framework.
   
 <p align="center">
-	<img width="1000" height="400" src="https://i.imgur.com/mtdD0ou.png">
-
+	<img src="https://i.imgur.com/mtdD0ou.png">
+</p>
 
 
 ## Requirements
